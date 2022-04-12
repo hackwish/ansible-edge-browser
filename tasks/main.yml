@@ -1,0 +1,24 @@
+---
+# tasks file for ansible-edge-browser
+# Repo
+- name: Add GPG key
+  apt_key:
+    url: https://packages.microsoft.com/keys/microsoft.asc
+    state: present
+
+- name: Add Repo SRC
+  apt_repository:
+    repo: 'deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main'
+    state: present
+
+- name: apt-get update
+  shell: apt-get update
+  become: true
+  become_user: root
+  ignore_errors: yes
+  when: ansible_os_family == "Debian" or ansible_os_family == "Ubuntu"
+
+- name: Install Edge Browser
+  apt:
+    name: microsoft-edge-stable
+    state: present
