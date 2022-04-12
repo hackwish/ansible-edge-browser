@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Categories=Application;Network;X-Developer;
+Terminal=false
+StartupWMClass=Edge Browser
+Name[es_CL]=Edge Browser
+Comment=Microsoft Edge Browser for Linux
+Exec=microsoft-edge-stable
+Name=Edge Browser
+Icon=/opt/edge-browser-icon.png
