@@ -1,10 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Categories=Application;Network;X-Developer;
+Encoding=UTF-8
+Categories=Network;Application;
 Terminal=false
 StartupWMClass=Edge Browser
-Name[es_CL]=Edge Browser
+Name[en_US]=Edge Browser
 Comment=Microsoft Edge Browser for Linux
 Exec=microsoft-edge-stable
 Name=Edge Browser
