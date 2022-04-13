@@ -25,7 +25,7 @@
 
 - name: Copy Edge icon image
   copy:
-      src: "{{ role_path }}/files/edge-browser-logo.png"
+      src: "{{ role_path }}/files/edge-browser-icon.png"
       dest: /opt/
       mode: 664
       remote_src: no
