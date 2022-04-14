@@ -26,7 +26,7 @@
 - name: Copy Edge icon image
   copy:
       src: "{{ role_path }}/files/edge-browser-icon.png"
-      dest: /opt/edge-browser-icon.png
+      dest: /opt/
       mode: 644
       remote_src: no
       directory_mode: yes
@@ -34,7 +34,7 @@
 - name: Copy Edge icon executable
   copy:
       src: "{{ role_path }}/files/edge-browser.desktop"
-      dest: /usr/share/applications/edge-browser.desktop
-      mode: 644
+      dest: /usr/share/applications/
+      mode: 775
       remote_src: no
       directory_mode: yes
