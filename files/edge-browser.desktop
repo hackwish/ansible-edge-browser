@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Encoding=UTF-8
-Categories=Network;Application;
+Categories=Application;Network;WebBrowser;
 Terminal=false
 StartupWMClass=Edge Browser
 Name[en_US]=Edge Browser
@@ -10,3 +10,4 @@ Comment=Microsoft Edge Browser for Linux
 Exec=microsoft-edge-stable
 Name=Edge Browser
 Icon=/opt/edge-browser-icon.png
+MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;
